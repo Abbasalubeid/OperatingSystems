@@ -1,5 +1,3 @@
-# Threading and Synchronization in Operating Systems
-
 ## Mutexes in Process Synchronization
 
 Synchronization is crucial in concurrent programming to ensure that multiple processes or threads can operate in a safe and predictable manner, particularly when interacting with shared resources.
