@@ -2,7 +2,7 @@
 
 Synchronization is crucial in concurrent programming to ensure that multiple processes or threads can operate in a safe and predictable manner, particularly when interacting with shared resources.
 
-A mutex (short for mutual exclusion) is a synchronization mechanism used to control access to a shared resource in a multi-threaded environment. It allows only one thread to access a critical section at a time, preventing concurrent access which could lead to race conditions. Mutexes are essential tools in an operating system's toolkit to manage concurrent processes or threads, ensuring data integrity and consistency by preventing race conditions.
+A mutex (mutual exclusion) is a synchronization mechanism used to control access to a shared resource in a multi-threaded environment. It allows only one thread to access a critical section at a time, preventing concurrent access which could lead to race conditions. Mutexes are essential tools in an operating system's toolkit to manage concurrent processes or threads, ensuring data integrity and consistency by preventing race conditions.
 
 This lab involves the task of coding `MutexThreadBufferIncrement.c`, a program that exemplifies the practical implementation of mutexes in C by using the POSIX threads (pthreads) library. The program illustrates how threads can safely and sequentially access and modify a shared resource, in this case, a shared integer buffer.
 
