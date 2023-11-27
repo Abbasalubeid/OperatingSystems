@@ -31,4 +31,4 @@ To verify the correctness of the program's output, run the actual Unix command i
 ls / | wc -l
 ```
 
-This command will display the number of files and directories in the root path which should match the output of the `ProcessPipeCommunication` program.
+This command will display the number of files and directories in the root path which should match the output of the `ipc` program.
