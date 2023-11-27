@@ -21,8 +21,8 @@ In the realm of Unix-like systems, creating and managing processes is a fundamen
 Compile and run the program:
 
 ```bash
-gcc -o ProcessPipeCommunication ProcessPipeCommunication.c
-./ProcessPipeCommunication
+gcc -o ipc pipe.c
+./ipc
 ```
 
 To verify the correctness of the program's output, run the actual Unix command in the terminal (applicable on Unix-like systems such as Linux or macOS). Execute the following command:
