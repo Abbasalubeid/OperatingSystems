@@ -3,7 +3,7 @@
 
 The Reader-Writer problem is a classic example of a multi-process synchronization issue in operating systems. The problem involves managing access to a shared resource between multiple reader processes and a single writer process. The core challenge is to enable several readers to concurrently read the resource without interruption from a writing process, while ensuring a writer has undisturbed access when needed.
 
-`ReaderWriterProblem.c` showcases a solution to the Reader-Writer problem using POSIX semaphores and shared memory in C. It demonstrates synchronization between reader and writer processes to access a shared integer buffer while ensuring data integrity and consistency.
+`reader_writer.c` showcases a solution to the Reader-Writer problem using POSIX semaphores and shared memory in C. It demonstrates synchronization between reader and writer processes to access a shared integer buffer while ensuring data integrity and consistency.
 
 ### Key Concepts
 - **Atomicity**: Critical operations like updating the count of active readers must be atomic to prevent race conditions.
@@ -20,6 +20,6 @@ The Reader-Writer problem is a classic example of a multi-process synchronizatio
 To compile and run the program:
 
 ```bash
-gcc -o ReaderWriterProblem ReaderWriterProblem.c
-./ReaderWriterProblem
+gcc -o readerWriter reader_writer.c
+./readerWriter
 ```
