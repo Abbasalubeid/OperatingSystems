@@ -30,10 +30,9 @@ These algorithms aim to optimize the disk's total head movement, improving overa
    ```bash
    gcc -o disk-scheduling disk-scheduling.c
    ```
-2. Run with an initial disk head position (e.g., 2500):
+2. Run the program with an initial disk head position within the range of 0 to 4999 (e.g., 2500):
    ```bash
    ./disk-scheduling 2500
    ```
-3. Observe the output showing total head movement for each algorithm.
 
-Ensure the initial disk head position is between 0 and 4999.
+The output reports total head movements for each algorithm. Different runs give varying results due to 1000 random cylinder requests.
