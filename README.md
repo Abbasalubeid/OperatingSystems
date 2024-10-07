@@ -1,4 +1,4 @@
-This repository contains practical labs and tasks completed during a course in Operatingsystems. 
+This repository contains practical labs and tasks completed during a course in Operating systems. 
 
 ## Course contents
 
